@@ -1,9 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 body {
-  font-family: JetBrains Mono;
-  background: rgb(215, 215, 215);
-  color: #0f141e;
+  font-family: JetBrains Mono, monospace;
+  background: rgb(230, 230, 230);
+  /* color: #0f141e; */
+  font-size: 16px;
+  font-weight: normal;
 }
 
 h1 {
   font-size: 40px;
 }
+
+.avatar {
+  width: 220px;
+  height: 240px;
+  border-radius: 30%;
+  box-shadow: 4px 4px 20px rgba(48, 48, 48, 0.35);
+}
+
+.about p {
+  color: #86898f;
+  margin: 0;
+  font-weight: bold;
+  text-decoration: none;
+  /* word-spacing: 0px; */
+}
+.about h2 {
+  color: #86898f;
+  margin: 1;
+  font-style: italic;
+}
+/* Box Model */
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+.social-networks {
+  background: green;
+  /* padding: 15px; */
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 15px;
+
+  border: 5px solid red;
+  border-bottom-style: solid;
+}
+/* 
+.box-model > div {
+  background: #000;
+  height: 200px;
+  width: 25%;
+  border: 4px solid red;
+  float: left;
+  box-sizing: border-box;
+} */

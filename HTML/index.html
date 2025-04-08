@@ -4,86 +4,100 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Buldin - AC</title>
-    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link type="text/css" href="/CSS/style.css" rel="stylesheet" />
   </head>
   <body>
-    <table cellspacing="15">
-      <tr>
-        <td>
-          <img
-            src="/Files/photo_2025-04-07_21-35-23.jpg"
-            width="220"
-            height="240"
-            alt="Моя фотография"
-          />
-        </td>
-        <td>
-          <h1>Меня зовут Александр Булдин</h1>
-          <h2>Приветствую на сайте с моим резюме</h2>
-          <p>
-            На данный момент я учусь в
-            <strong>Университете "Синергия"</strong> и учусь
-            <strong>Fullstack - разработке</strong>
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr / color="skyblue">
-    <h2>Мои социальные сети</h2>
-    <ul type="square">
-      <li><a href="https://vk.com/pluggsee" target="_blank">Вконтакте</a></li>
-    </ul>
-    <hr / color="skyblue">
-    <h2>Мои хобби</h2>
-    <ol>
-      <li>Программирование</li>
-      <li>Игры</li>
-      <li>Путешествия</li>
-    </ol>
-    <hr / color="skyblue">
-    <h2>Опыт работы</h2>
-    <table border="1">
-      <thead>
-        <tr>
-          <th>Компания</th>
-          <th>Должность</th>
-          <th>Год</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>BGDB №1</td>
-          <td>Programmer</td>
-          <td>2024</td>
-        </tr>
-        <tr>
-          <td>Local Campus</td>
-          <td>Lead Programmer</td>
-          <td>2025</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
-    </table>
-    <hr / color="skyblue">
-    <h2>Мои проекты по программированию</h2>
-    <a href="project.html" target="_blank">Посмотреть проекты</a>
-    <hr / color="skyblue">
-    <h2>Связаться со мной</h2>
-    <form action="/">
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" placeholder="Ваше имя" />
-      <br />
-      <label for="email">Ваша почта:</label>
-      <input type="email" id="email" placeholder="Ваша почта" />
-      <br />
-      <label for="number">Ваш номер телефона:</label>
-      <input type="text" id="number" placeholder="Ваш номер телефона" />
-      <br />
-      <label for="text">Ваше сообщение:</label>
-      <br />
-      <textarea id="text" cols="30" rows="5"></textarea>
-      <br />
-      <input type="submit" value="Связаться" />
-    </form>
+    <div class="container">
+      <div class="about">
+        <img
+          src="/Files/photo_2025-04-07_21-35-23.jpg"
+          width="220"
+          height="240"
+          class="avatar"
+          alt="Моя фотография"
+        />
+
+        <h1>Меня зовут Александр Булдин</h1>
+        <h2>Приветствую на сайте с моим резюме</h2>
+        <p>
+          На данный момент я учусь в
+          <strong>Университете "Синергия"</strong> и учусь
+          <strong>Fullstack - разработке</strong>
+        </p>
+      </div>
+      <hr / color="skyblue">
+
+      <div class="social-networks">
+        <h2>Мои социальные сети</h2>
+        <ul type="square">
+          <li>
+            <a href="https://vk.com/pluggsee" target="_blank">Вконтакте</a>
+          </li>
+          <li><a href="https://t.me/pluggsee" target="_blank">Telegram</a></li>
+        </ul>
+      </div>
+
+      <hr / color="skyblue">
+      <h2>Мои хобби</h2>
+      <ol>
+        <li>Программирование</li>
+        <li>Игры</li>
+        <li>Путешествия</li>
+      </ol>
+      <hr / color="skyblue">
+      <h2>Опыт работы</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Компания</th>
+            <th>Должность</th>
+            <th>Год</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>BGDB №1</td>
+            <td>Programmer</td>
+            <td>2024</td>
+          </tr>
+          <tr>
+            <td>Local Campus</td>
+            <td>Lead Programmer</td>
+            <td>2025</td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </table>
+      <hr / color="skyblue">
+      <h2>Мои проекты по программированию</h2>
+      <a href="project.html" target="_blank">Посмотреть проекты</a>
+      <hr / color="skyblue">
+      <h2>Связаться со мной</h2>
+      <form action="/">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Ваше имя" />
+        <br />
+        <label for="email">Ваша почта:</label>
+        <input type="email" id="email" placeholder="Ваша почта" />
+        <br />
+        <label for="number">Ваш номер телефона:</label>
+        <input type="text" id="number" placeholder="Ваш номер телефона" />
+        <br />
+        <label for="text">Ваше сообщение:</label>
+        <br />
+        <textarea id="text" cols="30" rows="5"></textarea>
+        <br />
+        <input type="submit" value="Связаться" />
+      </form>
+
+      <!-- <div class="box-model">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div> -->
+
+      <div style="margin-bottom: 500px"></div>
+    </div>
   </body>
 </html>
