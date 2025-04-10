@@ -95,12 +95,15 @@ h1 {
 } */
 
 .bg-yellow {
+  box-shadow: 5px 5px 60px rgb(255, 249, 220);
   background: #fff9dc;
 }
 .bg-green {
+  box-shadow: 5px 5px 60px rgb(229, 255, 231);
   background: #e5ffe7;
 }
 .bg-red {
+  box-shadow: 5px 5px 60px rgb(255, 229, 229);
   background: #ffe5e5;
 }
 .card {
